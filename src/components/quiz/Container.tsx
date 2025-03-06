@@ -1,7 +1,6 @@
 import { SetStateAction, useEffect, useState } from "react";
 import { testQuestions } from "../../backend/data/testQuestions";
 import Button from "../Career-assesment/Button";
-import { useNavigate } from "react-router";
 
 interface ContainerProps {
   selectedCateg: string;
@@ -10,8 +9,7 @@ interface ContainerProps {
   setShowResult:React.Dispatch<SetStateAction<boolean>>
 }
 
-const Container = ({ selectedCateg, score,setShowResult, setScore }: ContainerProps) => {
-    const router = useNavigate()
+const Container = ({ selectedCateg,setShowResult, setScore }: ContainerProps) => {
   const [navigate, setNavigate] = useState(0);
   const [hasPrev, setHasPrev] = useState(false);
   const [timeLeft, setTimeLeft] = useState(6 * 60);

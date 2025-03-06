@@ -11,7 +11,7 @@ const Content = () => {
     if (active === "all") {
       setFiltered(courses);
     } else {
-      const filteredCourses = courses.filter((course,index) => course["Career Path"].toLowerCase() === active);
+      const filteredCourses = courses.filter((course) => course["Career Path"].toLowerCase() === active);
       setFiltered(filteredCourses);
     }
   };
