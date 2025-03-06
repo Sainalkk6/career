@@ -1,0 +1,15 @@
+export const questions = [
+    { question: "What type of work environment excites you the most?", options: ["Creative Design", "Tech Development", "Collaborative Projects", "Data Science", "Automation Engineering"] },
+    { question: "Which task do you enjoy most?", options: ["Designing websites", "Writing server code", "Full application development", "Analyzing data", "Automating systems"] },
+    { question: "How do you approach problem-solving?", options: ["Focus on visuals", "Handle system logic", "Build both sides", "Work with data", "Optimize systems"] },
+    { question: "Which languages are you most comfortable with?", options: ["HTML, CSS, JS", "Python, Java, Ruby", "JS, React, Node", "Python, SQL, R", "Bash, Docker, CI/CD"] },
+    { question: "What projects would you like to work on?", options: ["UI/UX design", "Server systems", "Full web apps", "Data analysis", "Cloud automation"] },
+    { question: "How do you prefer to work with a team?", options: ["Collaborate with designers", "Work with developers", "Work on all layers", "Collaborate with analysts", "Work with engineers"] },
+    { question: "What motivates you most?", options: ["User experience", "System performance", "End-to-end development", "Data-driven insights", "System reliability"] },
+    { question: "Which work environment do you prefer?", options: ["Creative design space", "Technical coding environment", "Collaborative development space", "Data-driven team", "Fast-paced automation"] },
+    { question: "How do you feel about learning new tech?", options: ["Excited about design tools", "Interested in backend tech", "Keen to learn full stack", "Eager to explore data tools", "Passionate about DevOps tools"] },
+    { question: "How would you describe your attention to detail?", options: ["Focus on visuals", "Focus on logic", "Focus on both", "Focus on data", "Focus on systems"] },
+    { question: "How do you handle challenges?", options: ["Solve design issues", "Tackle performance issues", "Solve full app problems", "Analyze data for insights", "Automate processes"] },
+    { question: "What excites you about technology?", options: ["Creating beautiful designs", "Writing efficient code", "Building complete apps", "Working with data", "Optimizing systems"] },
+    { question: "How do you feel about collaboration?", options: ["Work with designers", "Work with developers", "Work with full team", "Work with analysts", "Work with engineers"] },
+];
